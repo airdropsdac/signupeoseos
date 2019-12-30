@@ -1,0 +1,18 @@
+---
+wax:
+  chain_id: 1064487b3cd1a897ce03ae5b6a865651747e2e152090f99c1d19d44e01aea5a4
+  node_endpoint: https://chain.wax.io:443
+  accounts_manager: signupwaxwax
+  funds_manager: signupwaxwax
+  ram_manager: signupwaxwax
+
+  accounts:
+    signupwaxwax:
+      signature:
+        type: scatter
+      auth:
+        active:
+          permissions:
+            - EOS5KkknNacZHQXUgZMqCbviHwbtRXWxbJD9X3JHxoQoYXoQhKd1t
+      code: signupeoseos.wasm
+      abi: signupeoseos.abi
