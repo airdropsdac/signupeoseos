@@ -42,8 +42,8 @@ void signupeoseos::transfer(account_name from, account_name to, asset quantity, 
 
     const account_name new_account_name(memo.substr(0, 12).c_str());
 
-    asset stake_net(90000000, CORE_SYMBOL);
-    asset stake_cpu(10000000, CORE_SYMBOL);
+    asset stake_cpu(90000000, CORE_SYMBOL);
+    asset stake_net(10000000, CORE_SYMBOL);
     asset buy_ram = quantity - stake_net - stake_cpu;
     check(buy_ram.amount > 0, "Not enough balance to buy ram");
 
